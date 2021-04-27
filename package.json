@@ -1,0 +1,30 @@
+{
+  "name": "bank-api-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node server/index.js",
+    "dev-client": " cd client && yarn start",
+    "dev-server": "nodemon server/index.js"
+  },
+  "engines": {
+    "node": "12.18.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.5",
+    "react-router-dom": "^5.2.0",
+    "validator": "^13.6.0"
+  }
+}
+Bank-API-with-Mongoose-React
+
+philmon-bank-app
